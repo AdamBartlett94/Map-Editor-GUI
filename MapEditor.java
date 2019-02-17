@@ -51,9 +51,9 @@ public class MapEditor {
 		window.setSize(800, 800);	
 		Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
 		int x = (int) ((screenSize.getWidth() - window.getWidth()) / 2);
-	    int y = (int) ((screenSize.getHeight() - window.getHeight()) / 2);
-	    window.setLocation(x, y);	    
-	    window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	   	int y = (int) ((screenSize.getHeight() - window.getHeight()) / 2);
+	    	window.setLocation(x, y);	    
+	    	window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		//----------------------------------------------------------------	
 		// Set-up Menu Bar:
@@ -227,7 +227,7 @@ public class MapEditor {
 					
 					// Read in map					
 					mrw.read(r, GUI.getMap());					
-		            r.close();		            
+		            		r.close();		            
 					deleteBackup();
 		            
 				} catch (IOException | MapFormatException e1) {
@@ -314,7 +314,7 @@ public class MapEditor {
 								
 					// Read in map
 					mrw.read(r, GUI.getMap());					
-			        r.close();					
+			        	r.close();					
 					deleteBackup();					            
 				} 
 				catch (IOException | MapFormatException e1) {
