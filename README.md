@@ -1,6 +1,4 @@
 # Map-Editor-GUI
-Using Java’s Swing widget to develop a map editor GUI
------------------------------------------------------
 This project was the last assignment given by the Event Driven Computing course I took as one of my computer science electives. We were required to use Java’s Swing widget to develop a map editor GUI that could both represent and modify the location of places and roads on a map, with the end goal being to visually represent the shortest distance between any two places.
 
 The majority of the focus was based on the functionality of the GUI itself, some of the requirements included: 
