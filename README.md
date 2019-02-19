@@ -9,6 +9,7 @@ The majority of the focus was based on the functionality of the GUI itself, some
   - Selecting or deselecting the start and end locations for the distance calculation
   - Calculating and highlighting the shortest distance between two points once selected
   - Etc…
+
 Overall I completed all of the default and bonus requirements for this assignment except for the ability to calculate the shortest distance between points. I was going to use Dijkstra's algorithm to implement this functionality but decided against it. The reason behind this being that I had already completed enough to obtain 100% of the grade for the assignment and therefore decided to focus my attention towards exam revision.
 
 Future Work:
