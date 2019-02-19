@@ -1,0 +1,28 @@
+#Places:
+place B 50 150
+place A 50 300
+place C 175 225
+place D 300 150
+place E 300 300
+place F 385 25
+place G 460 220
+
+#Roads:
+road A AB 4 B
+road A AC 3 C
+road A AE 7 E
+road B BC 6 C
+road B BD 5 D
+road C CD 11 D
+road C CE 8 E
+road D DF 2 F
+road D DG 10 G
+road D DE 2 E
+road E EG 5 G
+road F FG 3 G
+
+#Start:
+start A
+
+#End:
+end F
